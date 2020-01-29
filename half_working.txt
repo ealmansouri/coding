@@ -4,14 +4,13 @@
 def collatz(number):
 	number = int(input())
 	if (number % 2) == 0:
-		((number) // 2)
-		return number
+		return ((number) // 2)
+		print(number)
 	else:
-		((3 * (number)) + 1)
-		return number
+		return ((3 * (number)) + 1)
+		print(number)
 
 
-entry = collatz(number)
-
-while entry != 1:
+entry = collatz(input)
+while entry!= 1:
 	print(entry)
